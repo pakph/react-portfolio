@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.navbar {
+  background: linear-gradient(to right, #666699 0%, #ccccff 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#portfolio-carousel {
+  background: #666699;
+  margin: 5% 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#yelpcipes-carousel {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 3% 0%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#healthTrackr {
+  width: 100%;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+#foodSearch {
+  width: 100%;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#medication {
+  display: block;
+  margin: auto;
 }
