@@ -4,7 +4,7 @@ import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
 
-function PortfolioContainer() {
+function PageContainer() {
   const [currentPage, setCurrentPage] = useState("About");
 
   const handlePageChange = (page) => {
@@ -29,4 +29,4 @@ function PortfolioContainer() {
   );
 }
 
-export default PortfolioContainer;
+export default PageContainer;
