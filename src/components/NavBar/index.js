@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
@@ -21,41 +22,40 @@ function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a
-                href="#about"
-                onClick={() => props.handlePageChange("About")}
+              <Link
+                to="/"
                 className={
-                  props.currentPage === "About" ? "nav-link active" : "nav-link"
+                  "nav" && props.currentPage === "About"
+                    ? "nav-link active"
+                    : "nav-link"
                 }
               >
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
-                href="#portfolio"
-                onClick={() => props.handlePageChange("Portfolio")}
+              <Link
+                to="/portfolio"
                 className={
-                  props.currentPage === "Portfolio"
+                  "nav" && props.currentPage === "Portfolio"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
-                href="#contact"
-                onClick={() => props.handlePageChange("Contact")}
+              <Link
+                to="/contact"
                 className={
-                  props.currentPage === "Contact"
+                  "nav" && props.currentPage === "Contact"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

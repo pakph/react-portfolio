@@ -1,9 +1,15 @@
 import React from "react";
-import PageContainer from "./components/PageContainer";
 import "./App.css";
+import NavBar from "./components/NavBar";
+import Main from "./components/Main";
 
 function App() {
-  return <PageContainer />;
+  return (
+    <div>
+      <NavBar />
+      <Main />
+    </div>
+  );
 }
 
 export default App;

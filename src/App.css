@@ -2,16 +2,14 @@
   background: linear-gradient(to right, #666699 0%, #ccccff 100%);
 }
 
-#portfolio-carousel {
-  background: #666699;
-  margin: 5% 10%;
+.nav {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
 }
 
-#yelpcipes-carousel {
-  width: 50%;
-  height: auto;
-  display: block;
-  margin: 3% 0%;
+.nav:hover {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
 }
 
 #healthTrackr {

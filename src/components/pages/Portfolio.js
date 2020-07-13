@@ -1,6 +1,7 @@
 import React from "react";
 import yelpcipe2 from "../images/yelpcipe2.png";
 import trackr from "../images/Trackr.png";
+import { Link } from "react-router-dom";
 
 function Portfolio() {
   return (
@@ -27,9 +28,9 @@ function Portfolio() {
                   favorite restaurant, but it was closed? Well, look no further.
                   Yelpcipes is here to help you!
                 </p>
-                <a href="Portfolio/Project 1.html" class="btn btn-primary">
-                  View Project 1
-                </a>
+                <Link to="/yelpcipes" className="btn btn-primary">
+                  Yelpcipes
+                </Link>
               </div>
             </div>
           </div>
@@ -43,9 +44,9 @@ function Portfolio() {
                   Trackr is a diabetes tracker that helps users keep records of
                   various health related information.
                 </p>
-                <a href="Portfolio/Trackr.html" class="btn btn-primary">
+                <Link to="/trackr" class="btn btn-primary">
                   View Trackr
-                </a>
+                </Link>
               </div>
             </div>
           </div>
